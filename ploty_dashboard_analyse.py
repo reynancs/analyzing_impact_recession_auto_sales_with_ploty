@@ -15,6 +15,7 @@ url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDev
 # Read the CSV data into a pandas dataframe
 df = pd.read_csv(url, encoding = "ISO-8859-1")
 
+# Collumns 
 df.columns = df.columns.str.lower()
 
 
