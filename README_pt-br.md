@@ -1,6 +1,6 @@
 # 📊 Analisando o Impacto da Recessão nas Vendas de Automotores nos Estados Unidos
 
-![Dashboard - Report 1: Recession Period Statistics](report_1_recession_period_stats.png)
+![Dashboard - Report 1: Recession Period Statistics](../dashboard/report_1_recession_period_stats.png)
 
 **Categoria:** Visualização de Dados  
 **Segmento de Atuação:** Vendas  
