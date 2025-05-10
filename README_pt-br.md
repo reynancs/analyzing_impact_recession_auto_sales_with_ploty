@@ -1,4 +1,6 @@
-# 📊 Analyzing Impact of Recession on Auto Sales with Plotly
+# 📊 Analisando o Impacto da Recessão nas Vendas de Automotores nos Estados Unidos
+
+![Dashboard - Report 1: Recession Period Statistics](report_1_recession_period_stats.png)
 
 **Categoria:** Visualização de Dados  
 **Segmento de Atuação:** Vendas  
@@ -7,6 +9,8 @@
 ## 📝 Descrição
 
 Este projeto tem como objetivo criar visualizações informativas e interativas para analisar o impacto de diferentes períodos de recessão nas vendas de automóveis nos Estados Unidos. Por meio da manipulação e exploração dos dados históricos, buscamos entender como variáveis econômicas e sazonais influenciaram o comportamento do consumidor ao longo dos anos.
+
+Inclui dois relatórios de painel interativos criados com Plotly e Dash para explorar os dados de forma visual e dinâmica.
 
 ## 📁 Estrutura do Projeto
 

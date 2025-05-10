@@ -1,6 +1,6 @@
 # 📊 Analyzing Impact of Recession on Auto Sales with Plotly
 
-![Dashboard - Report 1: Recession Period Statistics](./dashboad/report_1_recession_period_stats.png)
+![Dashboard - Report 1: Recession Period Statistics](report_1_recession_period_stats.png)
 
 **Category:** Data Visualization  
 **Industry Segment:** Sales  
