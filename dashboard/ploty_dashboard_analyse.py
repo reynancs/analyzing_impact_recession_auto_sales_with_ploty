@@ -23,37 +23,48 @@ df.columns = df.columns.str.lower()
 app = dash.Dash(__name__)
 
 # Set the title of the dashboard
-app.layout = html.Div([
-    html.H1("Automobile Sales Statistics Dashboard", style={'textAlign': 'center', 'color': '#503D36', 'font-size': 24}),
+app.layout = html.Div(
+    style={'fontFamily': 'Segoe UI, sans-serif', 'backgroundColor': '#FFFFFF', 'padding': '20px'}, 
+    children=[
+        html.H1(
+        "Automobile Sales Statistics Dashboard",
+        style={'textAlign': 'left', 'color': '#004B87', 'font-size': '30px'}
+    ),
+
     html.Div([
-        html.Label("Select Statistics:"),
-        dcc.Dropdown(
-            id='dropdown-statistics',
-            options=[
-                {'label': 'Yearly Statistics', 'value': 'Yearly Statistics'},
-                {'label': 'Recession Period Statistics', 'value': 'Recession Period Statistics'}
-            ],
-            value='Yearly Statistics',
-            placeholder='Select a report type',
-            style={'width': '80%', 'padding': '3px', 'font-size': '20px', 'text-align-last': 'center'}
-        ),
-        html.Label("Select Year:"),
-        dcc.Dropdown(
-            id='select-year',
-            options=[{'label': i, 'value': i} for i in range(1980, 2024)],
-            #value=2023,
-            placeholder='Select a year',
-            style={'width': '30%', 'padding': '3px', 'font-size': '20px', 'text-align-last': 'center'}
-        )
-    ]),
-    html.Br(),
-    html.Br(),
+        html.Div([
+            html.Label("Select Statistics:", style={'fontWeight': 'bold', 'color': '#333333'}),
+            dcc.Dropdown(
+                id='dropdown-statistics',
+                options=[
+                    {'label': 'Yearly Statistics', 'value': 'Yearly Statistics'},
+                    {'label': 'Recession Period Statistics', 'value': 'Recession Period Statistics'}
+                ],
+                value='Yearly Statistics',
+                placeholder='Select a report type',
+                style={'width': '250px', 'font-size': '14px'}
+            )
+        ], style={'margin-right': '20px'}),
+
+        html.Div([
+            html.Label("Select Year:", style={'fontWeight': 'bold', 'color': '#333333'}),
+            dcc.Dropdown(
+                id='select-year',
+                options=[{'label': i, 'value': i} for i in range(1980, 2024)],
+                placeholder='Select a year',
+                style={'width': '180px', 'font-size': '14px'}
+            )
+        ])
+    ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '20px'}),
+
+
     html.Div([
         html.Div(id='output-container', className='chart-grid', style={'display': 'flex'}),
         html.Div(id='output-container2', className='chart-grid', style={'display': 'flex'})
-        ])
-    
+    ])
 ])
+
+
 
 # Define callback to update the input container based on the selected statistics
 # Callback Input Definition
