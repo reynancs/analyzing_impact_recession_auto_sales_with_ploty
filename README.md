@@ -1,6 +1,6 @@
 # 📊 Analyzing Impact of Recession on Auto Sales with Plotly
 
-![Dashboard - Report 1: Recession Period Statistics](https://github.com/reynancs/analyzing_impact_recession_auto_sales_with_ploty/blob/main/images/report_1_recession_period_stats.png).
+![Dashboard - Report 1: Recession Period Statistics](https://github.com/reynancs/analyzing_impact_recession_auto_sales_with_ploty/blob/main/images/report_2_yearly_stats_by_year.png).
 
 **Category:** Data Visualization  
 **Industry Segment:** Sales  
