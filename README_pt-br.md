@@ -1,14 +1,14 @@
 # 📊 Analyzing Impact of Recession on Auto Sales with Plotly
 
-**Category:** Data Visualization  
-**Industry Segment:** Sales  
-**Technologies:** `Pandas`, `Matplotlib`, `Seaborn`, `Folium`, `Plotly`, `Dash`
+**Categoria:** Visualização de Dados  
+**Segmento de Atuação:** Vendas  
+**Tecnologias:** `Pandas`, `Matplotlib`, `Seaborn`, `Folium`, `Plotly`, `Dash`
 
-## 📝 Description
+## 📝 Descrição
 
-This project aims to create informative and interactive visualizations to analyze the impact of different recession periods on automobile sales in the United States. Through data exploration and visualization, we seek to understand how economic and seasonal factors influenced consumer behavior over time.
+Este projeto tem como objetivo criar visualizações informativas e interativas para analisar o impacto de diferentes períodos de recessão nas vendas de automóveis nos Estados Unidos. Por meio da manipulação e exploração dos dados históricos, buscamos entender como variáveis econômicas e sazonais influenciaram o comportamento do consumidor ao longo dos anos.
 
-## 📁 Project Structure
+## 📁 Estrutura do Projeto
 
 ```
 📦analyzing_impact_recession_auto_sales_with_plotly/
@@ -20,30 +20,30 @@ This project aims to create informative and interactive visualizations to analyz
  ┗ 📜requirements.txt
 ```
 
-## 🔍 Learning Objectives
+## 🔍 Objetivos de Aprendizado
 
-- Create charts using Matplotlib and Seaborn to explore historical trends.
-- Use interactive maps with Folium to visualize geographic data.
-- Build interactive dashboards with Plotly and Dash.
-- Interpret economic indicators and identify sales patterns during recessions.
+- Criar gráficos com Matplotlib e Seaborn para explorar tendências históricas.
+- Usar mapas interativos com Folium para visualizar dados geográficos.
+- Construir visualizações interativas com Plotly e dashboards com Dash.
+- Interpretar dados econômicos e identificar padrões durante recessões.
 
-## 📊 Results and Insights
+## 📊 Resultados e Insights
 
-- Automobile sales significantly declined during recession periods.
-- Sedans and executive cars were more resilient.
-- Unemployment, consumer confidence, and seasonality directly impacted sales.
-- Interactive maps highlighted regional variations in sales.
+- As vendas de automóveis caíram significativamente durante os períodos de recessão.
+- Veículos sedans e executivos mostraram maior resiliência.
+- Fatores como desemprego, confiança do consumidor e sazonalidade afetam as vendas.
+- Mapas interativos destacaram variações regionais nas vendas.
 
-## 📈 Dataset Used
+## 📈 Dataset Utilizado
 
 - [historical_automobile_sales.csv](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv)
 
-### Key Variables:
+### Principais Variáveis:
 
 - `Date`, `Recession`, `Automobile_Sales`, `GDP`, `Unemployment_Rate`,
 - `Consumer_Confidence`, `Price`, `Vehicle_Type`, `Competition`
 
-## 🚀 How to Run
+## 🚀 Como Executar
 
 ```bash
 git clone https://github.com/seuusuario/analyzing_impact_recession_auto_sales_with_plotly.git
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/auto_sales_analysis.ipynb
 ```
 
-## 📚 References
+## 📚 Referências
 
 - [Pandas Documentation](https://pandas.pydata.org/)
 - [Seaborn Tutorial](https://seaborn.pydata.org/)
